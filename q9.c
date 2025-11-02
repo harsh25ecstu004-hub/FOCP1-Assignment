@@ -9,7 +9,6 @@ for(int i=0;i<num;i++){
     scanf("%d",&score[i]);
 }
 for(int i=0;i<num;i++){
-
     if(score[i]==99){
         printf("first occurnce is at position %d",++i);
         break;
